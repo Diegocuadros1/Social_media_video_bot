@@ -1,0 +1,350 @@
+Time
+Person
+Year
+Way
+Day
+Thing
+Man
+World
+Life
+Hand
+Part
+Child
+Eye
+Woman
+Place
+Work
+Week
+Case
+Point
+Government
+Company
+Number
+Group
+Problem
+Fact
+Be
+Have
+Do
+Say
+Get
+Make
+Go
+Know
+Take
+See
+Come
+Think
+Look
+Want
+Give
+Use
+Find
+Tell
+Ask
+Work
+Seem
+Feel
+Try
+Leave
+Call
+Good
+First
+Last
+Long
+Great
+Little
+Own
+Other
+Old
+Right
+Big
+High
+Different
+Small
+Large
+Next
+Early
+Young
+Important
+Few
+Public
+Bad
+Same
+Able
+To
+Of
+In
+For
+On
+With
+As
+At
+By
+About
+Against
+Between
+Into
+Through
+During
+Before
+After
+Above
+Below
+Over
+Under
+Again
+Further
+Then
+Once
+Here
+Be
+Have
+Do
+Say
+Get
+Make
+Go
+Know
+Take
+See
+Come
+Think
+Look
+Want
+Give
+Use
+Find
+Tell
+Ask
+Work
+Seem
+Feel
+Try
+Leave
+Call
+Put
+Need
+Mean
+Keep
+Let
+Begin
+Seem
+Help
+Show
+Hear
+Play
+Run
+Move
+Like
+Live
+Believe
+Hold
+Bring
+Happen
+Write
+Provide
+Sit
+Stand
+Lose
+Pay
+Meet
+Include
+Continue
+Set
+Learn
+Change
+Lead
+Understand
+Watch
+Follow
+Stop
+Create
+Speak
+Read
+Allow
+Add
+Spend
+Grow
+Open
+Walk
+Win
+Offer
+Remember
+Love
+Consider
+Appear
+Buy
+Wait
+Serve
+Die
+Send
+Build
+Stay
+Fall
+Cut
+Reach
+Kill
+Raise
+Pass
+Sell
+Decide
+Return
+Explain
+Hope
+Develop
+Carry
+Break
+Receive
+Agree
+Support
+Good
+New
+First
+Last
+Long
+Great
+Little
+Own
+Other
+Old
+Right
+Big
+High
+Different
+Small
+Large
+Next
+Early
+Young
+Important
+Few
+Public
+Bad
+Same
+Able
+Happy
+Sorry
+Easy
+Short
+Low
+Wide
+Late
+Hard
+Major
+Better
+Best
+Worst
+Enough
+Strong
+Possible
+Whole
+Free
+True
+Full
+Special
+Clear
+Simple
+Bright
+Dark
+Financial
+Young
+Ready
+Available
+Likely
+Short
+Single
+Medical
+Current
+Wrong
+Private
+Past
+Foreign
+Fine
+Common
+Poor
+Natural
+Significant
+Similar
+Deep
+Dead
+Central
+Happy
+Serious
+Ready
+Simple
+Left
+Physical
+General
+Environmental
+Financial
+Blue
+Democratic
+Dark
+Various
+Entire
+Close
+Legal
+Religious
+Cold
+Final
+Main
+Green
+Nice
+Huge
+Popular
+Traditional
+Cultural
+Wide
+Particular
+Available
+Thank you
+Good morning
+Please help
+My pleasure
+Take care
+Sorry about that
+No problem
+Of course
+Right away
+Sounds good
+Not sure
+No worries
+What's up?
+How come?
+See you
+Hold on
+Let's go
+Why not?
+Good idea
+What happened?
+Not really
+Absolutely not
+Count me in
+Never mind
+Guess what?
+Look out
+After you
+Me too
+Who cares?
+Be careful
+Hurry up
+Good luck
+Same here
+I agree
+Go ahead
+Well done
+How so?
+All set
+Calm down
+Cheer up
+I'm lost
+Time's up
+I'm tired
+Get ready
+I'm sure
+Watch out
+Not yet
+Fair enough
+You wish
+good night

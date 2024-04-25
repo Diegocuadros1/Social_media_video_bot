@@ -1,0 +1,18 @@
+How this social media language trivia maker is going to work
+
+step 1: The user inputs the topic of video (any language) they want and the background that they want, and the title of the video.
+
+- The computer uses chatgpt api to generate the trivia question
+
+- "Generate a trivia game where the topic is learning the {language} language. The question should be "How do you say _____ in {language}", 
+or "What is another way of saying _____ in {language}" Make sure the question, the four multiple choice answers, and the answer are in comma separated
+values so that I can put them in an array. 
+
+- The computer will then do that prompt 7 more times so that I have 8 questions in all
+
+- the computer will then have all of these values in an array format, where I will then put it through a function to generate a video for it 
+
+- the computer will take all of the questions and title and create a tts of it. 
+
+- the computer will write take the background image, paste the questions, and then add the tts voice over at their specific time intervals 
+to make a video (this needs to be eveluated more)
