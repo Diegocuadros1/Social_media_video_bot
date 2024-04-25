@@ -1,1 +1,4 @@
 moviepy=1.0.3
+langcodes=3.3.0
+Unicode=1.3.6
+requests=2.31.0
