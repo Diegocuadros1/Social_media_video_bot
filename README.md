@@ -16,7 +16,8 @@ english = "<Paste_Your_ID_Here>"
 
 run the code and install the required packages in requirements.txt
 
-If you would like you can add your own custom background images to change the style of the background (make sure it is 1080 x 1900 for it to work as a reel / tiktok
+If you would like you can add your own custom background images to change the style of the background (make sure it is 1080 x 1900 for it to work as a reel / tiktok 
+- Make sure that your file is in the folder called backgrounds and make sure that your video is an mp4 and it is the named the language you are translating to.
 
 If you would like to change the words that are randomly generated, you can change the file called data.txt. Every line is a different word that can be translated
 
