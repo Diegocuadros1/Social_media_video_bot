@@ -8,21 +8,21 @@ https://elevenlabs.io/
 
 make sure you put your api keys in a .env file and name the translator API key TRANSLATOR_API_KEY and the Elevenlabs key ELEVENLABS_API
 
-Can only operate 10,000 characters per month with the free versino
+Can only operate 10,000 characters per month with the free version
 
-pick your text to speech person as anyone in elevenlabs, then grab the persons ID and paste it on the top of the desired name in the tts.py file. Example below:
+pick your text-to-speech person as anyone in eleven labs, then grab the person's ID and paste it on the top of the desired name in the tts.py file. Example below:
 english = "<Paste_Your_ID_Here>"
 
 
 run the code and install the required packages in requirements.txt
 
-If you would like you can add your own custom background images to change the style of the background (make sure it is 1080 x 1900 for it to work as a reel / tiktok 
+If you would like you can add your own custom background images to change the style of the background (make sure it is 1080 x 1900 for it to work as a reel / tiktok (The only backgrounds there right now are Japanese and Spanish)
 - Make sure that your file is in the folder called backgrounds and make sure that your video is an mp4 and it is the named the language you are translating to.
 
 If you would like to change the words that are randomly generated, you can change the file called data.txt. Every line is a different word that can be translated
 
-If you would like to change the amount of questions being run, you can change the AMOUNT_OF_QUESTIONS variable at the top of generate_content.py
-- Keep in mind that moviepy concatination is extremely slow, depending on the amount of questions 10 questions could take over an hour
+If you would like to change the number of questions being run, you can change the AMOUNT_OF_QUESTIONS variable at the top of generate_content.py
+- Keep in mind that moviepy concatenation is extremely slow, depending on the number of questions 10 questions could take over an hour
 
 Answer the series of questions to generate your questions. When your questions are finished, look inside of the tts output folder and try to find out if the voice matches the required voice that you want. If it doesn't you can regenerate the text to speech. Once text to speech is approved, it will generate the video, and it will output as a video titled final_video.mp4
 
