@@ -21,6 +21,8 @@ If you would like to change the words that are randomly generated, you can chang
 If you would like to change the amount of questions being run, you can change the AMOUNT_OF_QUESTIONS variable at the top of generate_content.py
 - Keep in mind that moviepy concatination is extremely slow, depending on the amount of questions 10 questions could take over an hour
 
+Answer the series of questions to generate your questions. When your questions are finished, look inside of the tts output folder and try to find out if the voice matches the required voice that you want. If it doesn't you can regenerate the text to speech. Once text to speech is approved, it will generate the video, and it will output as a video titled final_video.mp4
+
 Run main.py
 
 A rundown on how the program works
