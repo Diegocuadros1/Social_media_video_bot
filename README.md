@@ -19,18 +19,20 @@ If you would like you can add your own custom background images to change the st
 If you would like to change the words that are randomly generated, you can change the file called data.txt. Every line is a different word that can be translated
 
 If you would like to change the amount of questions being run, you can change the AMOUNT_OF_QUESTIONS variable at the top of generate_content.py
+- Keep in mind that moviepy concatination is extremely slow, depending on the amount of questions 10 questions could take over an hour
 
 Run main.py
 
 A rundown on how the program works
-There are three main files in the program: create_video.py, generate_content.py, and tts.py
+ - There are three main files in the program: create_video.py, generate_content.py, and tts.py
 
-generate content runs first and creates the functions necessary to generate the trivia content, returning the content in an array with different questions in each array
+ - generate content runs first and creates the functions necessary to generate the trivia content, returning the content in an array with different questions in each array
 When you generate a question, words from data.txt will be randomly selected and chosen as a word. Then these words will be translated with the desired language and then 
 placed on a b c d, the word with the matching translation to the word from the question is the right answer
 
-tts.py creates the functions necessary to create a text to speech from the trivia content that was made previously
+ - tts.py creates the functions necessary to create a text to speech from the trivia content that was made previously
 
-create_video combines the text to speech, the background video, and gets the questions and combines them all in a video with moviepy.
+ - create_video combines the text to speech, the background video, and gets the questions and combines them all in a video with moviepy.
+
 
 
