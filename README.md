@@ -10,7 +10,9 @@ make sure you put your api keys in a .env file and name the translator API key T
 
 Can only operate 10,000 characters per month with the free versino
 
-pick your text to speech person as anyone in elevenlabs
+pick your text to speech person as anyone in elevenlabs, then grab the persons ID and paste it on the top of the desired name in the tts.py file. Example below:
+english = "<Paste_Your_ID_Here>"
+
 
 run the code and install the required packages in requirements.txt
 
