@@ -13,17 +13,21 @@ translator_api = 'https://deep-translate1.p.rapidapi.com/language/translate/v2'
 #Global Varibale for Amount of questions on the trivia quiz
 AMOUNT_OF_QUESTIONS = 3
 
+#This initializes the generator and will ask you a series of questions so that you can properly make your trivia questions the best
 def create_prompt(language):
 
     personal_question = input("Would you like to leave a personal trivia question? y/n: ")
 
-    #initializing empty array of trivia questions. Max is 5
+    #initializing empty array of trivia questions. 
     trivia_questions = []
 
+    #if person wants to generate a word question
     if personal_question == "y":
         i = 0
         while i < AMOUNT_OF_QUESTIONS:
             question = input("Fill in the blank: How do you say ______ in " + language + "? ")
+            
+            #translating the word that is specified into the game
             question = translate_into_game(question, language)
             
             answer = input("Would you like to add another custom question? y/n ")
@@ -36,12 +40,14 @@ def create_prompt(language):
                 trivia_questions.extend(question)
                 trivia_questions.extend(generate_content(language, AMOUNT_OF_QUESTIONS - 1 - i))
                 break
-
+    
+    #making everything automatic
     else:
         trivia_questions = generate_content(language, AMOUNT_OF_QUESTIONS)
 
     print(trivia_questions)
 
+    #printing the trivia questions for review
     for i in range(len(trivia_questions)):
         print('Trivia Question ' + str(i + 1) + ': ', trivia_questions[i][0])
         print("A. ", trivia_questions[i][1])
@@ -60,6 +66,7 @@ def create_prompt(language):
 
 #translating english words into the specified language
 def translate(word, language):
+
     #translating language into iso 369 conversion
     language = Language.find(language).to_tag()
 
@@ -78,6 +85,7 @@ def translate(word, language):
     #response data
     response = requests.post(translator_api, headers=headers, json=data)
 
+    #sending translation code
     if response.status_code == 200:
         return response.json()['data']['translations']['translatedText']
 
